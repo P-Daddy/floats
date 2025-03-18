@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="src/floats.css" />
+	</head>
+	<body>
+		<div id="inputs">
+			<label for="code">Code:</label>
+			<div id="code">
+				<input type="text" />
+			</div>
+
+			<label for="integer">Integer:</label>
+			<div id="integer">
+				<input type="text" value="0" />
+			</div>
+
+			<label for="hex">Hex:</label>
+			<div id="hex">
+				<input text="text" value="0" />
+			</div>
+
+			<label for="float">Float:</label>
+			<div id="float">
+				<input type="text" value="0" />
+			</div>
+
+			<label for="bytes">Bytes:</label>
+			<bytes-input id="bytes"></bytes-input>
+
+			<label for="bits">Bits:</label>
+			<bits-input id="bits"></bits-input>
+		</div>
+
+		<script type="module" src="/src/floats.ts"></script>
+	</body>
+</html>

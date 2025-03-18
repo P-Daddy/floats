@@ -1,0 +1,31 @@
+{
+	"compilerOptions" : {
+		"target"                       : "esnext",
+		"lib"                          : [
+			"ESNext",
+			"DOM",
+			"DOM.Iterable"
+		],
+		"rootDir"                      : ".",
+		"strict"                       : true,
+		"allowSyntheticDefaultImports" : true,
+		"noUnusedLocals"               : true,
+		"noUnusedParameters"           : true,
+		"noImplicitReturns"            : true,
+		"resolveJsonModule"            : true,
+		"module"                       : "ESNext",
+		"moduleResolution"             : "node",
+		"noErrorTruncation"            : true,
+		"esModuleInterop"              : true,
+		"baseUrl"                      : ".",
+		"strictNullChecks"             : true,
+		"types"                        : ["vite/client"],
+		"noEmit"                       : true,
+		"isolatedModules"              : true,
+		"sourceMap"                    : true,
+	},
+	"exclude"         : [
+		"**/node_modules/",
+		"**/build"
+	]
+}

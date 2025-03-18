@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+#inputs {
+	display               : grid;
+	grid-template-columns : max-content max-content;
+	gap                   : 0.25em;
+	align-items           : center;
+
+	input {
+		padding: 0.25em;
+	}
+
+	input, bytes-input, bits-input {
+		font-family:
+			"Fira Code",
+			"DejaVu Sans Mono",
+			"Bitstream Vera Sans Mono",
+			"Liberation Mono",
+			Inconsolata,
+			monospace;
+	}
+
+	#code input {
+		width: 50em;
+
+		&.error {
+			background: #f004;
+		}
+
+		&.stale {
+			background: #da54;
+		}
+	}
+
+	#float input, #integer input, #hex input {
+		text-align: right;
+	}
+
+	bytes-input, bits-input {
+		background: white;
+	}
+}

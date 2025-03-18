@@ -1,0 +1,8 @@
+.vscode/
+/dist/
+/coverage/
+/builds/
+node_modules/
+tsconfig.tsbuildinfo
+*.bak
+/*.tgz
